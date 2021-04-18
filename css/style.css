@@ -1,0 +1,51 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  display: flex;
+  width: 70%;
+  height: auto;
+  margin: 200px auto;
+}
+
+.selezione{
+  background-color:	#212121;
+  color: #128c7e;
+  padding: 10px;
+  border-radius: 10px 0 0 10px;
+}
+
+label{
+  font-weight: bold;
+}
+
+.selezione option{
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.musicPlayer{
+  width: 100%;
+  background-color:  #128c7e;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 0 10px 10px 0;
+}
+
+.albumCover{
+  width: calc(100% / (4 - 10px));
+  margin: 30px 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.albumCover img{
+  width: 150px;
+  height: auto;
+  border: 1px solid black,
+}

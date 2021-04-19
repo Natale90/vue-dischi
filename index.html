@@ -39,12 +39,15 @@
       </div>
       <div class="musicPlayer">
         <div v-for='album in filteredGenre' class="albumCover">
-          <div class="title">
+          <h3 class="title">
             {{album.title}}
-          </div>
+          </h3>
           <img :src="album.poster" alt="">
           <div class="artist">
             {{album.author}}
+          </div>
+          <div class="">
+            {{album.year}}
           </div>
         </div>
       </div>
